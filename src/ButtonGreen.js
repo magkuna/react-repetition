@@ -1,10 +1,10 @@
 import React from 'react'
 
-
+import {jfddl7Button} from './ButtonGreen.module.css'
 
 const ButtonGreen = (props) => (
     <div
-        className={'jfddl7-button jfddl7-button--green'}
+        className={jfddl7Button}
     >
         Button Green
     </div>
