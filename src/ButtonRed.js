@@ -1,13 +1,14 @@
 import React from 'react'
 
-import {buttonRed} from './ButtonRed.module.css'
-
-import {button} from './Buttons.module.css'
+import {button, buttonRed} from './button.styles.js'
 
 
 const ButtonRed = (props) => (
     <div
-        className={button + ' '+ buttonRed}
+        style={{
+            ...button,
+            ...buttonRed
+        }}
     >
         Button Red
     </div>
